@@ -1,5 +1,5 @@
 :root {
-    --base-color: royalblue;
+    --base-color: rgba(65, 105, 225, 0.84);
     --accent-color: rgba(255, 166, 0, 0.684);
     --main-color: black;
     --alternative: white;
