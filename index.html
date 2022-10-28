@@ -7,61 +7,106 @@
 		<title>dashboard</title>
 		<link rel="stylesheet" href="style.css" />
 		<script src="script.js" defer></script>
+		<script
+			src="https://kit.fontawesome.com/e526150bb4.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
 		<div class="main">
 			<div class="left-container">
 				<div class="logo">
-					<div class="design">
-						<div class="logo-part"></div>
-						<div class="logo-part"></div>
-						<div class="logo-part"></div>
-						<div class="logo-part"></div>
-					</div>
-                    <div>dashboard</div>
+					<i class="fa-solid fa-table-cells-large"></i> Dashboard
 				</div>
 				<div class="navBar">
-                    <ul>
-                        <li>div.iconHome</li>
-                        <li>Profile</li>
-                        <li>Messages</li>
-                        <li>History</li>
-                        <li>Tasks</li>
-                        <li>Communities</li>
-                    </ul>
-                </div>
+					<ul>
+						<li>
+							<a href="#"><i class="fa-solid fa-house"></i> Home</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa-regular fa-user"></i> Profile</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa-regular fa-message"></i> Messages</a>
+						</li>
+						<li>
+							<a href="#"
+								><i class="fa-solid fa-clock-rotate-left"></i> History</a
+							>
+						</li>
+						<li>
+							<a href="#"><i class="fa-solid fa-list-ul"></i> Tasks</a>
+						</li>
+						<li>
+							<a href="#"
+								><i class="fa-solid fa-people-group"></i> Communities</a
+							>
+						</li>
+					</ul>
+				</div>
 				<div class="settings">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
+					<ul>
+						<li>
+							<a href="#"><i class="fa-solid fa-gears"></i> Settings</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa-solid fa-headset"></i> Support</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa-solid fa-user-shield"></i> Privacy</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-            <div class="right-container">
-                <div class="header">
-                    <div class="top-part-header">
-                        <div class="search-bar"></div>
-                        <div class="user"></div>
-                    </div>
-                    <div class="bottom-part-header">
-                        <div class="user-greeting"></div>
-                        <div class="user-actions"></div>
-                    </div>
-                </div>
-                <div class="content-container">
-                    <div class="projects">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <div class="announcements"></div>
-                    <div class="trending"></div>
-                </div>
-            </div>
+			<div class="right-container">
+				<div class="header">
+					<div class="top-part-header">
+						<div class="search-bar">
+							<i class="fa-solid fa-magnifying-glass"></i>
+							<input type="text" />
+						</div>
+						<div class="user">
+							<a href=""><i class="fa-regular fa-bell"></i></a>
+							<img
+								class="static-banana"
+								src="img/dancing-banana copy.gif"
+								alt="static-banana"
+							/>
+							<h1>Tahir Mujic</h1>
+						</div>
+					</div>
+					<div class="bottom-part-header">
+						<div class="user-greeting">
+							<img
+								src="img/dancing-banana.gif"
+								alt="dancing-banana"
+								class="dancing-banana"
+							/>
+							<div>
+								<p>Hi there,</p>
+								<h4>Tahir Mujic (@taskotale)</h4>
+							</div>
+						</div>
+						<div class="user-actions">
+							<button>New</button>
+                            <button>Upload</button>
+                            <button>Share</button>
+						</div>
+					</div>
+				</div>
+				<div class="content-container">
+					<div class="projects">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div class="announcements"></div>
+					<div class="trending"></div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
