@@ -1,6 +1,6 @@
 :root {
     --base-color: royalblue;
-    --accent-color: yellow;
+    --accent-color: rgba(255, 166, 0, 0.684);
     --main-color: black;
     --alternative: white;
     --base-size: 1rem;
@@ -194,6 +194,12 @@ button {
     border-left: calc(var(--base-size)/2) solid var(--accent-color);
     border-radius: var(--base-size);
     box-shadow: var(--shadow);
+    transition: all 200ms ease-out;
+
+}
+.project:hover {
+    scale: 1.03;
+    transition: all 200ms ease-in;
 }
 
 .project>.icons {
